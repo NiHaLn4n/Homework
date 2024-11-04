@@ -5,7 +5,7 @@ print(fruits)
 colors = ['red', 'blue', 'green', 'yellow', 'purple']
 print(colors[0])
 print(colors[2])
-print(colors[4])
+print(colors[-1])
 #Modifying a List
 numbers=[10, 20, 30, 40, 50]
 numbers[1]=25
