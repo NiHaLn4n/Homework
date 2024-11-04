@@ -37,8 +37,8 @@ letters = ['a', 'b', 'a', 'c', 'b', 'a', 'd']
 a= letters.count('a')
 print(a)
 #List Comprehension
-square = [x**2 for x in range(11) if x % 2 == 0]
-print(square)
+squares= [num**2 for num in range(11) if num % 2 == 0]
+print(squares)
 #Removing Duplicates
 nums = [1, 2, 2, 3, 4, 4, 5, 6, 6, 7]
 Num = list(set(nums))
